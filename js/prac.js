@@ -29,7 +29,7 @@ form.addEventListener('submit', function(e) {
 
 data.forEach(item => {
     liMaker(item)
-})  //로컬 스토리지에서  가져오는 역할이구나
+})  
 
 button.addEventListener('click', function() {
     localStorage.clear()    
